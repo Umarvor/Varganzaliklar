@@ -5,7 +5,10 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import './Slayder2.css';
-
+import A13 from '../img/13.jpg'
+import A11 from '../img/11.jpg'
+import A12 from '../img/12.jpg'
+import A15 from '../img/15.jpg'
 import { Navigation, Autoplay } from 'swiper/modules';
 
 export default function Slayder() {
@@ -31,19 +34,19 @@ export default function Slayder() {
             >
                 <SwiperSlide>
                     <article className='Slayder-article'>
-                        <img className='SwiperSlide-image' src="/src/img/13.jpg" alt='First Slide' />
+                        <img className='SwiperSlide-image' src={A13} alt='First Slide' />
                         <p className='Slayder-article-text'>Shavkat Mirziyoyev urush faxriylarini ziyorat qildi</p>
                     </article>
                 </SwiperSlide>
                 <SwiperSlide>
                     <article className='Slayder-article'>
-                        <img className='SwiperSlide-image' src="/src/img/11.jpg" alt='Second Slide' />
+                        <img className='SwiperSlide-image' src={A11} alt='Second Slide' />
                         <p className='Slayder-article-text'>Shavkat Mirziyoyev urush faxriylarini ziyorat qildi.</p>
                     </article>
                 </SwiperSlide>
                 <SwiperSlide>
                     <article className='Slayder-article'>
-                        <img className='SwiperSlide-image' src="/src/img/12.jpg" alt='Third Slide' />
+                        <img className='SwiperSlide-image' src={A12} alt='Third Slide' />
                         <p className='Slayder-article-text'>Shavkat Mirziyoyev urush faxriylarini ziyorat qildi.
 
                         </p>
@@ -51,13 +54,13 @@ export default function Slayder() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <article className='Slayder-article'>
-                        <img className='SwiperSlide-image' src="/src/img/13.jpg" alt='Third Slide' />
+                        <img className='SwiperSlide-image' src={A13} alt='Third Slide' />
                         <p className='Slayder-article-text'>Shavkat Mirziyoyev urush faxriylarini ziyorat qildi.</p>
                     </article>
                 </SwiperSlide>
                 <SwiperSlide>
                     <article className='Slayder-article'>
-                        <img className='SwiperSlide-image' src="/src/img/11.jpg" alt='Third Slide' />
+                        <img className='SwiperSlide-image' src={A11} alt='Third Slide' />
                         <p className='Slayder-article-text'>Shavkat Mirziyoyev urush faxriylarini ziyorat qildi.
 
                         </p>
@@ -65,7 +68,7 @@ export default function Slayder() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <article className='Slayder-article'>
-                        <img className='SwiperSlide-image' src="/src/img/15.jpg" alt='Third Slide' />
+                        <img className='SwiperSlide-image' src={A15} alt='Third Slide' />
                         <p className='Slayder-article-text'>Shavkat Mirziyoyev urush faxriylarini ziyorat qildi.</p>
                     </article>
                 </SwiperSlide>
