@@ -1,0 +1,45 @@
+#a{
+    color: rgb(131, 32, 32);
+}
+.Navbarroter1{
+    display: flex;
+    gap: 120px;
+    margin-bottom: 25px;
+}
+.Navbarroter1-text{
+    padding: 70px 0px;
+}
+.Navbarroter1-img2{
+    margin: auto;
+    display: flex;
+    width: 60%;
+    cursor: pointer;
+   margin-bottom: 15px;
+
+}
+.Navbarroter1-p{
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.Navbarroter1-h2{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.Navbarroter1-h22{
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 50%;
+    margin: auto;
+}
+.Navbarroter1-pp{
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    width: 50%;
+   
+    margin: auto;
+}
+.Navbarroter2{
+    background-color: rgba(76, 132, 169, 0.619);
+}

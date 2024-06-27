@@ -1,0 +1,122 @@
+.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.back-to-top button {
+    background-color: #007bffc7;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-to-top button:hover {
+    background-color: #0056b3;
+}
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 991001; /* loader yuqori qatlamda bo'lishi kerak */
+}
+
+.loader {
+    width: 100px;
+    aspect-ratio: 1;
+    display: grid;
+    -webkit-mask: conic-gradient(from 15deg, #0000, #000);
+    animation: l26 1s infinite steps(12);
+}
+
+.loader,
+.loader:before,
+.loader:after {
+    background:
+        radial-gradient(closest-side at 50% 12.5%,
+            #33a4f0 96%, #0000) 50% 0/20% 80% repeat-y,
+        radial-gradient(closest-side at 12.5% 50%,
+            #33f0d0 96%, #0000) 0 50%/80% 20% repeat-x;
+}
+
+.loader:before,
+.loader:after {
+    content: "";
+    grid-area: 1/1;
+    transform: rotate(30deg);
+}
+
+.loader:after {
+    transform: rotate(60deg);
+}
+
+@keyframes l26 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
+
+.Navbar1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0083b3c1;
+    height: 50px;
+
+
+}
+
+.Navbar111 {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    gap: 50px;
+    cursor: pointer;
+    color: rgb(139, 79, 6);
+    
+
+}
+
+.Navbar11 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+    transition: all 2s;
+
+    li {
+        cursor: pointer;
+        color: #000;
+    }
+
+    li:hover {
+        border-bottom: 3px solid rgb(0, 68, 255);
+        transform: all 2s;
+    }
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+
+}
+.Rasm1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+    height: 600px;
+    background-image: url(/src/img/736_736_95_3854968363.jpg);
+   
+}

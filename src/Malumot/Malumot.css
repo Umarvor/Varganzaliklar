@@ -1,0 +1,13 @@
+
+  .video-player-wrapper {
+  
+   height: 600px;
+    width: 100%;
+    
+  }
+  .Malumot-article{
+
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 2px solid rgb(0, 98, 255);
+  }

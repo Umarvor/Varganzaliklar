@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1540px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0b1bfa;
+    border-radius: 8px;
+    cursor: pointer;
+}
