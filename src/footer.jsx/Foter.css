@@ -1,77 +1,86 @@
 .footer {
-    background-color: #202839;
-    color: white;
-    padding: 20px 0;
-  }
-  
-  .footer-container {
-    width: 90%;
-    max-width: 1540px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  
-  .footer-logo h2 {
-    margin: 0;
-    font-size: 24px;
-  }
-  
-  .footer-contact p {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-  }
-  
-  .footer-contact p svg {
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  a{
-    text-decoration: none;
-    color: white;
-  }
-  .footer-map iframe {
-    
-    width: 420px;
-    height: 300px;
-    border: 0;
-  }
-  .footer-logo-title{
-    cursor: pointer;
-    transition: 0.2s all;
-    &:hover{
-        color: rgb(255, 0, 0);
-    }
-  }
-.grid{
-    display: flex;
-    gap: 20px;
-   
-}  
-.footer-location{
-    cursor: pointer;
+  background-color: #202839;
+  color: white;
+  padding: 20px 0;
+
 }
+
+.footer-container {
+  width: 90%;
+  max-width: 1540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-logo h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.footer-contact p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.footer-contact p svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-map iframe {
+  width: 110%;
+  height: 300px;
+  border: 0;
+}
+
+.footer-logo-title {
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.footer-logo-title:hover {
+  color: rgb(255, 0, 0);
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-location {
+  cursor: pointer;
+}
+
 .menu {
-    list-style-type: none; /* Ro'yxat belgisini olib tashlash */
-    padding: 0; /* Ichki bo'shliqni olib tashlash */
-  }
-  
-  .menu li {
-    transition: 0.2s all;
-    margin-bottom: 10px; /* Elementlar orasidagi bo'shliq */
-    &:hover{
-        color: rgb(255, 0, 0);
-        cursor: pointer;
-        
-    }
-  }
-  
-  .menu li:last-child {
-    margin-bottom: 10; /* Oxirgi elementda bo'shliq bo'lmasligi uchun */
-  }
-  .footer-copyright{
-    cursor: pointer;
-  }
+  list-style-type: none; /* Ro'yxat belgisini olib tashlash */
+  padding: 0; /* Ichki bo'shliqni olib tashlash */
+}
+
+.menu li {
+  transition: 0.2s all;
+  margin-bottom: 10px; /* Elementlar orasidagi bo'shliq */
+}
+
+.menu li:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.menu li:last-child {
+  margin-bottom: 10px; /* Oxirgi elementda bo'shliq bo'lmasligi uchun */
+}
+
+.footer-copyright {
+  cursor: pointer;
+}
+
+/* Media query for screens up to 300px wide */

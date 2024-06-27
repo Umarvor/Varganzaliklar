@@ -10,7 +10,9 @@ function Navbarroter1() {
             <h2 className='Navbarroter1-h2'>Hazrati Bashir ziyoratgohi: </h2>
             <br />
             <div className='Navbarroter1'>
-                <article><img src={Na1} alt="" /></article>
+                <article>
+                    <img className='Navbarroter1-img' src={Na1} alt="" />
+                </article>
                 <article className='Navbarroter1-text'><h2>Hudud:Qashqadaryo viloyati;</h2>
                     <h2 >Kategoriya:Ziyoratgoh, Diniy obyekt;</h2>
                     <a id='a' href="https://meros.uz/object/map/hazrati-bashir-ziyoratgohi"><h3>Xaritadan o'rni.</h3></a>

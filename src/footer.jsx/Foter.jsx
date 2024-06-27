@@ -53,9 +53,9 @@ export default function Footer() {
                     <iframe
                         title="Varganza Map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.3317475854027!2d69.24407421542197!3d41.299495979271264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4bb3f1e3f71%3A0x9b1e3b0f8b1b6ad7!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1613972246319!5m2!1sen!2sus"
-                        width={"100%"}
+                      
                         style={{ border: 0 }}
-                        allowFullScreen=""
+                        
                         loading="lazy"
                     ></iframe>
                 </div>
