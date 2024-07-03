@@ -1,4 +1,5 @@
-import { useInView } from 'react-intersection-observer';
+// src/Navbarroter/Navbarroter4.js
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './Navbarroter.css';
 import image1 from '../img/20.jpg';
@@ -13,25 +14,31 @@ function Navbar4() {
   return (
     <div className="image-container">
       {images.map((src, index) => (
-        <ImageComponent key={index} src={src} />
+        <ImageComponent key={index} src={src} index={index} />
       ))}
     </div>
   );
 }
 
-function ImageComponent({ src }) {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1
-  });
+function ImageComponent({ src, index }) {
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setInView(true);
+      setTimeout(() => setInView(false), 2000); // Animatsiyani qayta boshlash
+    }, 3000); // Har 2 soniyada animatsiyani qayta boshlash
+    return () => clearInterval(interval);
+  }, []);
+
+  const positionClasses = ['left', 'center', 'right'];
 
   return (
     <motion.div
-      className="image-wrapper"
-      ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-      transition={{ duration: 0.5 }}
+      className={`image-wrapper ${positionClasses[index % 3]}`}
+      initial={{ opacity: 0, scale: 2 }}
+      animate={{ opacity: inView ? 1 : 0, scale: inView ? 1 : 2 }}
+      transition={{ duration: 1 }}
     >
       <img src={src} alt="image" className="image" />
     </motion.div>

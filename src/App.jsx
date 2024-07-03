@@ -16,7 +16,7 @@ const routes = createBrowserRouter(
       <Route path='/Diqqatga_sazovor_joylar' element={<Navbarroter1 />} />
       <Route path='/Faolyatlar' element={<Navbarroter2 />} />
       <Route path='/Mahalliy_bizneslar' element={<Malumot2 />} />
-      <Route path='Galeriya' element={Navbarroter4}/>
+      <Route path='Galeriya' element={<Navbarroter4/>}/>
     </Route>
   )
 );
