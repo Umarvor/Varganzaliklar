@@ -29,7 +29,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 991001; /* loader yuqori qatlamda bo'lishi kerak */
+    z-index: 991001;
+    /* loader yuqori qatlamda bo'lishi kerak */
 }
 
 .loader {
@@ -84,7 +85,7 @@
     gap: 50px;
     cursor: pointer;
     color: rgb(139, 79, 6);
-    
+
 
 }
 
@@ -111,12 +112,72 @@
     height: 80px;
 
 }
-.Rasm1{
+
+.Rasm1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
- 
+
     height: 600px;
     background-image: url(/src/img/736_736_95_3854968363.jpg);
-   
+
+}
+
+
+/* App.css */
+
+.comment-box {
+
+
+    position: fixed;
+    z-index: 8888;
+    text-align: center;
+    width: 350px;
+
+    border-radius: 0px 0px 15px 10px;
+  
+    color: white;
+    border: 1px solid #ffffff;
+    background-color: #11599d;
+
+    &:hover {
+        transition: all 2s;
+    }
+}
+
+.btn {
+    width: 90px;
+    height: 25px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    background-color: #33f0d0;
+    border: 0;
+}
+
+.area {
+    height: 100px;
+    resize: none;
+    padding: 10px 15px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.comment-parent {
+    width: 100%;
+    margin: auto;
+    padding: 0px 40%;
+}
+.vf{
+    display: flex;
+    justify-content: space-evenly;
+    
+    text-align: center
+}
+.cx{
+   &:hover{
+    background-color: red;
+    transition: all 0.2s;
+    width: 30px;
+    cursor: pointer;
+   }
 }
