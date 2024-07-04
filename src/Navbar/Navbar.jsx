@@ -50,8 +50,8 @@ function Navbar() {
                         <Link to='/Faolyatlar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} >Faoliyatlar</li></Link>
                         <Link to='/Mahalliy_bizneslar'><li>Mahalliy bizneslar</li></Link>
                         <Link to='/Galeriya'><li>Galereya</li></Link>
-                        <li>Yangiliklar</li>
-                        <li>Foydali manbalar</li>
+                        <Link to='Yangiliklar'><li>Yangiliklar</li></Link>
+                        <Link to='Foydali_manbalar'><li>Foydali manbalar</li></Link>
                         <li onClick={handleToggleCommentBox}>Sharhlar qoldirish</li>
                     </ul>
                     <img className='Navbar2' src={Menu} alt="" />

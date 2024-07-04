@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Malumot() {
     return (
         <>
-                        <h1 className='Slayder-h1'>Varganza tadbirkorlik subeyktlari:</h1>
+            <h1 className='Slayder-h1'>Varganza tadbirkorlik subeyktlari:</h1>
 
             <Link to='/Mahalliy_bizneslar'>
                 <br />
@@ -26,9 +26,11 @@ function Malumot() {
                     controls={true}
                 />
                 <br />
-                
+
             </Link>
-            <h2>Varganza shaharchasida 50 dan ortiq tadbirkorlik subektlari mavjud.</h2>
+            <h3>Varganza qishlog'ida ko'plab mahalliy bizneslar faoliyat yuritadi. Ular orasida hunarmandchilik, dehqonchilik va kichik korxonalar mavjud. Mahalliy bizneslar qishloq iqtisodiyotini rivojlantirishda muhim rol o'ynaydi.
+
+                Ekologik Muammolar v Varganza shaharchasida 50 dan ortiq tadbirkorlik subektlari mavjud.</h3>
             <br />
         </>
     )

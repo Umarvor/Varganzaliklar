@@ -12,7 +12,7 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
-                    <NavLink to='/'><h2 className="footer-logo-title">Varganzaliklar</h2></NavLink>
+                    <NavLink to='/'><h2  className="footer-logo-title" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Varganzaliklar</h2></NavLink>
                     <br />
                     <article>
                         <ul className='menu'>

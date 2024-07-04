@@ -6,6 +6,9 @@ import Na3 from '../img/na3.jpg'
 function Navbarroter1() {
     return (
         <div>
+            <h1>Diqqatga Sazovor Joylar </h1>
+           <br />
+           <h2 className='iu'>Varganza qishlog'ida ko'plab diqqatga sazovor joylar mavjud. Qishloqdagi eski masjid va maqbara, tarixiy obidalar va tabiat parklar sayyohlarni jalb etadi. Ushbu joylarda qishloqning boy tarixi va madaniyatini o'rganish mumkin.</h2>
             <br />
             <h2 className='Navbarroter1-h2'>Hazrati Bashir ziyoratgohi: </h2>
             <br />
