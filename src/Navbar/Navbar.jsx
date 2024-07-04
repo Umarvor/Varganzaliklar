@@ -44,10 +44,10 @@ function Navbar() {
                 <article className='Navbar1'>
                     <NavLink to='/'><h1 className='Navbar111'>Varganzaliklar</h1></NavLink>
                     <ul className='Navbar11'>
-                        <NavLink to='/'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Bosh sahifa</li></NavLink>
-                        <Link to='/Tarix'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Tarix</li></Link>
-                        <Link to='/Diqqatga_sazovor_joylar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Diqqatga sazovor joylar</li></Link>
-                        <Link to='/Faolyatlar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} >Faoliyatlar</li></Link>
+                        <NavLink to='/'><li>Bosh sahifa</li></NavLink>
+                        <Link to='/Tarix'><li>Tarix</li></Link>
+                        <Link to='/Diqqatga_sazovor_joylar'><li >Diqqatga sazovor joylar</li></Link>
+                        <Link to='/Faolyatlar'><li >Faoliyatlar</li></Link>
                         <Link to='/Mahalliy_bizneslar'><li>Mahalliy bizneslar</li></Link>
                         <Link to='/Galeriya'><li>Galereya</li></Link>
                         <Link to='Yangiliklar'><li>Yangiliklar</li></Link>

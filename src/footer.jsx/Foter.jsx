@@ -12,18 +12,18 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-container">
                 <div className="footer-logo">
-                    <NavLink to='/'><h2  className="footer-logo-title" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Varganzaliklar</h2></NavLink>
+                    <NavLink to='/'><h2 className="footer-logo-title" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Varganzaliklar</h2></NavLink>
                     <br />
                     <article>
                         <ul className='menu'>
                             <NavLink to='/'> <li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Bosh sahifa</li></NavLink>
-                            <Link to='/Tarix'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Tarix</li></Link>
-                            <Link to='/Diqqatga_sazovor_joylar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Diqqatga sazovor joylar</li></Link>
-                            <Link to='/Faolyatlar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Faoliyatlar</li></Link>
-                            <Link to='/Mahalliy_bizneslar'> <li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Mahalliy bizneslar</li></Link>
-                            <li>Galereya</li>
-                            <li>Yangiliklar</li>
-                            <li>Foydali manbalar</li>
+                            <Link to='Tarix'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Tarix</li></Link>
+                            <Link to='Diqqatga_sazovor_joylar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Diqqatga sazovor joylar</li></Link>
+                            <Link to='Faolyatlar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Faoliyatlar</li></Link>
+                            <Link to='Mahalliy_bizneslar'> <li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Mahalliy bizneslar</li></Link>
+                            <Link to='Galeriya'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Galereya</li></Link>
+                            <Link to='Yangiliklar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Yangiliklar</li></Link>
+                            <Link to='Foydali_manbalar'><li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Foydali manbalar</li></Link>
                         </ul>
 
 
@@ -53,9 +53,9 @@ export default function Footer() {
                     <iframe
                         title="Varganza Map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.3317475854027!2d69.24407421542197!3d41.299495979271264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4bb3f1e3f71%3A0x9b1e3b0f8b1b6ad7!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1613972246319!5m2!1sen!2sus"
-                      
+
                         style={{ border: 0 }}
-                        
+
                         loading="lazy"
                     ></iframe>
                 </div>

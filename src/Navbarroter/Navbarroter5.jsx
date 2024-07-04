@@ -46,6 +46,7 @@ const sections = [
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => (
   <div className="accordion-item">
+    
     <div className="accordion-title" onClick={onClick}>
       <h3>{title}</h3>
       <span>{isOpen ? '-' : '+'}</span>
@@ -63,6 +64,8 @@ const VarganzaInfo = () => {
 
   return (
     <div className="accordion-container">
+      <h2 className='qs'>Foydali manbalar:</h2>
+      <br />
       {sections.map((section, index) => (
         <AccordionItem
           key={index}
