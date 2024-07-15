@@ -79,12 +79,14 @@
 }
 
 .Navbar111 {
-    display: flex;
-    list-style: none;
-    margin-top: 10px;
-    gap: 50px;
+
+    margin-top: 53px;
     cursor: pointer;
-    color: rgb(139, 79, 6);
+    width: 200px;
+    height: 100px;
+    background-color: #0056b3;
+    border-radius: 20px;
+    margin-left: 20px;
 
 
 }
@@ -93,7 +95,7 @@
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 50px;
+    gap: 40px;
     transition: all 2s;
 
     li {
@@ -123,6 +125,12 @@
 
 }
 
+@media (width: 950) {
+
+    .Rasm1 {
+        height: 400px;
+    }
+}
 
 /* App.css */
 
@@ -135,7 +143,7 @@
     width: 350px;
 
     border-radius: 0px 0px 15px 10px;
-  
+
     color: white;
     border: 1px solid #ffffff;
     background-color: #11599d;
@@ -165,19 +173,24 @@
 .comment-parent {
     width: 100%;
     margin: auto;
-    padding: 0px 40%;
+    padding: 0px 35%;
 }
-.vf{
+
+.vf {
     display: flex;
     justify-content: space-evenly;
-    
+
     text-align: center
 }
-.cx{
-   &:hover{
-    background-color: red;
-    transition: all 0.2s;
-    width: 30px;
-    cursor: pointer;
-   }
+
+.cx {
+    &:hover {
+        background-color: red;
+        transition: all 0.2s;
+        width: 30px;
+        cursor: pointer;
+    }
+}
+#fa{
+    margin-left: 45px;
 }

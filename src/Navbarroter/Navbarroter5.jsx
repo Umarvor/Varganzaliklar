@@ -64,6 +64,7 @@ const VarganzaInfo = () => {
 
   return (
     <div className="accordion-container">
+      <br /><br />
       <h2 className='qs'>Foydali manbalar:</h2>
       <br />
       {sections.map((section, index) => (

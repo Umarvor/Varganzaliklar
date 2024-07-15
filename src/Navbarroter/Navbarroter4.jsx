@@ -31,7 +31,7 @@ function ImageComponent({ src, index }) {
     return () => clearInterval(interval);
   }, []);
 
-  const positionClasses = ['left', 'center', 'right'];
+  const positionClasses = ['left', 'center', 'right',];
 
   return (
     <motion.div

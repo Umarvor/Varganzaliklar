@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import Menu from '../img/burger-menu.png'
 import { useState,useRef } from 'react';
 import axios from 'axios';
+import VC from '../img/Снимок_экрана_2024-07-15_113525-removebg-preview.png'
 function Navbar() {
     const [showCommentBox, setShowCommentBox] = useState(false);
   const commentRef = useRef(null);
@@ -42,17 +43,20 @@ function Navbar() {
             <div className='Navbar'>
 
                 <article className='Navbar1'>
-                    <NavLink to='/'><h1 className='Navbar111'>Varganzaliklar</h1></NavLink>
                     <ul className='Navbar11'>
-                        <NavLink to='/'><li>Bosh sahifa</li></NavLink>
-                        <Link to='/Tarix'><li>Tarix</li></Link>
-                        <Link to='/Diqqatga_sazovor_joylar'><li >Diqqatga sazovor joylar</li></Link>
-                        <Link to='/Faolyatlar'><li >Faoliyatlar</li></Link>
-                        <Link to='/Mahalliy_bizneslar'><li>Mahalliy bizneslar</li></Link>
-                        <Link to='/Galeriya'><li>Galereya</li></Link>
-                        <Link to='Yangiliklar'><li>Yangiliklar</li></Link>
-                        <Link to='Foydali_manbalar'><li>Foydali manbalar</li></Link>
-                        <li onClick={handleToggleCommentBox}>Sharhlar qoldirish</li>
+                        <NavLink to='/'><li className='none'>Bosh sahifa</li></NavLink>
+                        <Link to='/Tarix'><li className='none' >Tarix</li></Link>
+                        <Link to='/Diqqatga_sazovor_joylar'><li className='none'>Diqqatga sazovor joylar</li></Link>
+                        <Link to='/Faolyatlar'><li className='none' id='fa' >Faoliyatlar</li></Link>
+                        <NavLink to='/'><img className='Navbar111' id='kk' src={VC} alt='' /></NavLink>
+             
+                        <Link to='/Mahalliy_bizneslar'><li className='none'>Mahalliy bizneslar</li></Link>
+
+                        <Link to='/Galeriya'><li className='none'>Galereya</li></Link>
+                        <Link to='Yangiliklar'><li className='none'>Yangiliklar</li></Link>
+                        <Link to='Foydali_manbalar'><li className='none'>Foydali manbalar</li></Link>
+                        
+                        <li onClick={handleToggleCommentBox} className='none'>Sharhlar qoldirish</li>
                     </ul>
                     <img className='Navbar2' src={Menu} alt="" />
                 </article>

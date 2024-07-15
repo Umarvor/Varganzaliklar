@@ -1,10 +1,10 @@
 .Slayder-article {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 300px;
-    margin-bottom: 20px;
+      align-items: center;
+      text-align: center;
+    height: 400px;
+    margin-bottom: 200px;
    
   }
   
@@ -30,3 +30,4 @@
     font-weight: 500;
     cursor: pointer;
   }
+ 

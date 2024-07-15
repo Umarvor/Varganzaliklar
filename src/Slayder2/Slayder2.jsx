@@ -18,11 +18,7 @@ export default function Slayder() {
             <h1 className='Slayder-h1'>Bizning Faxriylar:</h1>
             <br />
             <Swiper
-                loop={true}
-                autoplay={{
-                    delay: 1000, // 1 second
-                    disableOnInteraction: false,
-                }}
+                
                 breakpoints={{
                     320: { slidesPerView: 1, spaceBetween: 10 },
                     480: { slidesPerView: 2, spaceBetween: 10 },
