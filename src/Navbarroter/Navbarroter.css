@@ -80,14 +80,8 @@
 }
 
 @media (max-width:1460px) {
-  .none {
+  .Navbar11 {
     display: none;
-  }
-  .Navbar111{
-    display: block;
-    margin-left: 110%;
-    height: 90px;
-    margin-top: -3px;
   }
 
   .Navbar2 {
@@ -95,25 +89,8 @@
   }
 
 }
-@media screen and (max-width: 505px) {
-  .Navbar2{
-    margin-left: -120px;
-  }
-  
-}
-@media screen and (max-width: 410px) {
-  .Navbar2{
-    margin-left: -150px;
-  }
-  
-}
-@media   (max-width: 1300px) {
-  .Navbar111{
-      margin-left: -100px;
-  }
- 
-  
-}
+
+
 /* src/Navbarroter/Navbarroter.css */
 .image-container {
   display: flex;

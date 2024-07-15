@@ -43,12 +43,13 @@ function Navbar() {
             <div className='Navbar'>
 
                 <article className='Navbar1'>
+                <NavLink to='/'><img className='Navbar111' id='kk' src={VC} alt='' /></NavLink>
+
                     <ul className='Navbar11'>
                         <NavLink to='/'><li className='none'>Bosh sahifa</li></NavLink>
                         <Link to='/Tarix'><li className='none' >Tarix</li></Link>
                         <Link to='/Diqqatga_sazovor_joylar'><li className='none'>Diqqatga sazovor joylar</li></Link>
                         <Link to='/Faolyatlar'><li className='none' id='fa' >Faoliyatlar</li></Link>
-                        <NavLink to='/'><img className='Navbar111' id='kk' src={VC} alt='' /></NavLink>
              
                         <Link to='/Mahalliy_bizneslar'><li className='none'>Mahalliy bizneslar</li></Link>
 
