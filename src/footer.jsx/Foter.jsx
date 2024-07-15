@@ -37,7 +37,7 @@ export default function Footer() {
                     <br />
                     <a target='_blank' href="mailto:info@varganzaliklar.com"><p><EmailIcon /> Email: info@varganzaliklar.com</p></a>
                     <br />
-                    <a href="tel:+998770270357"><p><PhoneIcon /> Telefon: +998 90 123 45 67</p></a>
+                    <a href="tel:+998770270357"><p><PhoneIcon /> Telefon: +998 77 027 03 57</p></a>
                     <br />
                     <p className='footer-location'><LocationOnIcon /> Manzil: Uzbekistan Qashqadoryo Kitob tuman Varganza Mfy</p>
                     <br />

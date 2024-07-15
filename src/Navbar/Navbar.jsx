@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import Menu from '../img/burger-menu.png'
 import { useState,useRef } from 'react';
 import axios from 'axios';
-import VC from '../img/Снимок_экрана_2024-07-15_113525-removebg-preview.png'
+import VC from '../img/Снимок_экрана_2024-07-15_130625-removebg-preview.png'
 function Navbar() {
     const [showCommentBox, setShowCommentBox] = useState(false);
   const commentRef = useRef(null);

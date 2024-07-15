@@ -72,8 +72,8 @@
 .Navbar1 {
     display: flex;
     justify-content: space-around;
-    background-color: #0083b3c1;
-    height: 50px;
+    background-color: #c8c8c8;
+    height: 55px;
 
 
 }
@@ -83,7 +83,7 @@
    
     cursor: pointer;
     width: 200px;
-    height: 100px;
+    height: 80px;
     border-radius: 20px;
     margin-left: 20px;
 
