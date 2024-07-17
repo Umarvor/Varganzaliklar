@@ -153,6 +153,18 @@
         transition: all 2s;
     }
 }
+@media (max-width:710px) {
+    .comment-box{
+        margin-left: -80px;
+    }
+    
+}
+@media (max-width:600px) {
+    .comment-box{
+        margin-left: -120px;
+    }
+    
+}
 
 .btn {
     width: 90px;
