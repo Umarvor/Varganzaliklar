@@ -72,7 +72,8 @@
 .Navbar1 {
     display: flex;
     justify-content: space-around;
-    background-color: #00ffcc7b;
+    /* background-color: #00ffcc7b; */
+    background-color: #d1d1d1;
     height: 55px;
 
 
@@ -80,7 +81,7 @@
 
 .Navbar111 {
 
-   
+
     cursor: pointer;
     width: 200px;
     height: 80px;
@@ -184,13 +185,68 @@
 }
 
 .cx {
-    &:hover {
-        background-color: red;
+     
+       
         transition: all 0.2s;
         width: 30px;
         cursor: pointer;
+    &:hover{
+        background-color: red;
     }
 }
-#fa{
+
+#fa {
     margin-left: 45px;
+}
+
+.popup {
+    display: block;
+    position: absolute;
+    list-style: none;
+    z-index: 9999989899999888;
+    transition: all 0.4s;
+    width: 250px;
+    border-radius: 0px 0px 15px 10px;
+    height: 270px;
+    
+ 
+    border: 1px solid #000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width:350px) {
+    .popup{
+        width: 260px;
+    }
+    
+}
+
+.xxx {
+    padding: 10px 15px;
+    gap: 100px;
+    display: flex;
+
+    .xx {
+        width: 30px;
+        text-align: center;
+
+        transition: all 0.2s;
+
+        &:hover {
+            background-color: red;
+            cursor: pointer;
+            color: white;
+        }
+    }
+
+}
+
+.sxa {
+    color: black;
+    padding: 2px 16px;
+
+    &:hover {
+        border-bottom: 2px solid rgb(0, 162, 255);
+    }
+
 }

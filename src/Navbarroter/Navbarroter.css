@@ -86,6 +86,7 @@
 
   .Navbar2 {
     display: block;
+    cursor: pointer;
   }
 
 }
