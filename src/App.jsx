@@ -30,12 +30,12 @@ const routes = createBrowserRouter(
 const App = () => {
   return (
     <>
-      <ScrollAnimationComponent>
+     
         <div className='container'>
           <RouterProvider router={routes} />
           <Top />
         </div>
-      </ScrollAnimationComponent>
+      
 
     </>
   );

@@ -11,8 +11,8 @@ const ScrollAnimationComponent = ({ children }) => {
   return (
     <motion.div
       ref={ref}
-      initial={{ opacity: 0,  y: 150 }}
-      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, x: -50, y: 150 }}
+      initial={{ opacity: 0,  y: -150 }}
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0,  y: -150 }}
       transition={{ duration: 1.5 }}
       
     >
