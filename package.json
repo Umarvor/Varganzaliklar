@@ -15,12 +15,14 @@
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.20",
     "axios": "^1.7.2",
-    "framer-motion": "^11.2.12",
+    "framer-motion": "^11.3.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-intersection-observer": "^9.10.3",
+    "react-infinite-scroller": "^1.2.6",
+    "react-intersection-observer": "^9.13.0",
     "react-player": "^2.16.0",
     "react-router-dom": "^6.23.1",
+    "react-virtualized": "^9.22.5",
     "swiper": "^11.1.4"
   },
   "devDependencies": {

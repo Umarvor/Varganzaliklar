@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbarroter.css';
-
+import Scroll from '../Navbarroter/Scroll'
 const sections = [
   {
     title: "Qishloq Tarixi",
@@ -46,7 +46,7 @@ const sections = [
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => (
   <div className="accordion-item">
-    
+
     <div className="accordion-title" onClick={onClick}>
       <h3>{title}</h3>
       <span>{isOpen ? '-' : '+'}</span>
@@ -63,20 +63,23 @@ const VarganzaInfo = () => {
   };
 
   return (
-    <div className="accordion-container">
-      <br /><br />
-      <h2 className='qs'>Foydali manbalar:</h2>
-      <br />
-      {sections.map((section, index) => (
-        <AccordionItem
-          key={index}
-          title={section.title}
-          content={section.content}
-          isOpen={openIndex === index}
-          onClick={() => handleToggle(index)}
-        />
-      ))}
-    </div>
+    <Scroll>
+      <div className="accordion-container">
+        <br /><br />
+        <h2 className='qs'>Foydali manbalar:</h2>
+        <br />
+        {sections.map((section, index) => (
+          <AccordionItem
+            key={index}
+            title={section.title}
+            content={section.content}
+            isOpen={openIndex === index}
+            onClick={() => handleToggle(index)}
+          />
+        ))}
+      </div>
+    </Scroll>
+
   );
 };
 

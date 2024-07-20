@@ -9,6 +9,7 @@ import image4 from '../img/23.jpg';
 import image5 from '../img/24.jpg';
 import images6 from '../img/13.jpg'
 const images = [image1, image2, image3, image4, image5,images6];
+import Scroll from '../Navbarroter/Scroll'
 
 function Navbar4() {
   return (
@@ -34,6 +35,7 @@ function ImageComponent({ src, index }) {
   const positionClasses = ['left', 'center', 'right',];
 
   return (
+   
     <motion.div
       className={`image-wrapper ${positionClasses[index % 3]}`}
       initial={{ opacity: 0, scale: 2 }}
@@ -42,6 +44,7 @@ function ImageComponent({ src, index }) {
     >
       <img src={src} alt="image" className="image" />
     </motion.div>
+   
   );
 }
 

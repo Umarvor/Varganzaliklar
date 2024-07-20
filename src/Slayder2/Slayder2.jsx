@@ -5,6 +5,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import './Slayder2.css';
+import Scroll from '../Navbarroter/Scroll'
+
 import A13 from '../img/13.jpg'
 import A11 from '../img/11.jpg'
 import A12 from '../img/12.jpg'
@@ -14,6 +16,7 @@ import { Navigation, Autoplay } from 'swiper/modules';
 export default function Slayder() {
     return (
         <>
+        <Scroll>
             <br />
             <h1 className='Slayder-h1'>Bizning Faxriylar:</h1>
             <br />
@@ -71,6 +74,7 @@ export default function Slayder() {
 
 
             </Swiper>
+            </Scroll>
         </>
     );
 }

@@ -1,12 +1,14 @@
 import React from 'react'
+import Scroll from '../Navbarroter/Scroll'
 import './Navbarroter.css'
 import Na1 from '../img/na1.jpg'
 import Na2 from '../img/na2.jpg'
 import Na3 from '../img/na3.jpg'
 function Navbarroter1() {
     return (
+        <Scroll>
         <div>
-            <h1>Diqqatga Sazovor Joylar </h1>
+            <h1 className='nm'>Diqqatga Sazovor Joylar </h1>
            <br />
            <h2 className='iu'>Varganza qishlog'ida ko'plab diqqatga sazovor joylar mavjud. Qishloqdagi eski masjid va maqbara, tarixiy obidalar va tabiat parklar sayyohlarni jalb etadi. Ushbu joylarda qishloqning boy tarixi va madaniyatini o'rganish mumkin.</h2>
             <br />
@@ -34,6 +36,7 @@ function Navbarroter1() {
                 <img className='Navbarroter1-img2' src={Na3} alt="" />
             </div>
         </div>
+        </Scroll>
     )
 }
 

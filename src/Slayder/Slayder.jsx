@@ -1,4 +1,5 @@
 import React from 'react';
+import Scroll from '../Navbarroter/Scroll'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -17,7 +18,8 @@ import { Link } from 'react-router-dom';
 export default function Slayder() {
   return (
     <>
-      <br />
+    <Scroll>
+    <br />
       <h1 className='Slayder-h1'>Yangiliklar</h1>
       <br />
       <Swiper
@@ -74,6 +76,8 @@ export default function Slayder() {
 
 
       </Swiper>
+    </Scroll>
+     
     </>
   );
 }

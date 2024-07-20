@@ -2,9 +2,12 @@ import React from 'react'
 import './Malumot2.css'
 import ReactPlayer from 'react-player/youtube';
 import { Link } from 'react-router-dom';
+import Scroll from '../Navbarroter/Scroll'
+
 function Malumot() {
     return (
         <>
+        <Scroll>
             <h1 className='Slayder-h1'>Varganza tadbirkorlik subeyktlari:</h1>
 
             <Link to='/Mahalliy_bizneslar'>
@@ -32,6 +35,7 @@ function Malumot() {
 
                 Ekologik Muammolar v Varganza shaharchasida 50 dan ortiq tadbirkorlik subektlari mavjud.</h3>
             <br />
+            </Scroll>
         </>
     )
 }
