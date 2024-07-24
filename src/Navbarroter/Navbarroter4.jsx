@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import './Navbarroter.css';
 import image1 from '../img/20.jpg';
-import image2 from '../img/21.jpg';
+import image2 from '../img/na3.jpg';
 import image3 from '../img/22.jpg';
 import image4 from '../img/23.jpg';
 import image5 from '../img/24.jpg';
 import images6 from '../img/13.jpg'
 const images = [image1, image2, image3, image4, image5,images6];
-import Scroll from '../Navbarroter/Scroll'
+
 
 function Navbar4() {
   return (

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const ScrollAnimationComponent = ({ children }) => {
   const { ref, inView } = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     threshold: 0.1,
   });
 
