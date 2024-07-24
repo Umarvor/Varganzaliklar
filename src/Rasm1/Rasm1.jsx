@@ -18,6 +18,7 @@ const App = () => {
   };
 
   return (
+    <Scroll>
     <div className="App">
       <Slider {...settings}>
         <div>
@@ -31,6 +32,7 @@ const App = () => {
         </div>
       </Slider>
     </div>
+    </Scroll>
   );
 };
 
