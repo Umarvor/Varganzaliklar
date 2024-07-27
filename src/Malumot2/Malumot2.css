@@ -1,0 +1,49 @@
+.Header {
+  text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    cursor:   pointer;
+}
+
+.ContentGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+@media (max-width:1030px) {
+    .ContentGrid{
+        display: block;
+        align-items: center;
+    }
+  
+    
+}
+.VideoLink {
+    display: block;
+    text-decoration: none;
+}
+
+.VideoContainer {
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.Description {
+    display: flex;
+   cursor: pointer;
+    justify-content: center;
+  
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+    font-size: 1.2em;
+    line-height: 2;
+}

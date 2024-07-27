@@ -1,33 +1,33 @@
 .Slayder-article {
-    display: flex;
-    flex-direction: column;
-      align-items: center;
-      text-align: center;
-    height: 400px;
-    margin-bottom: 200px;
-   
-  }
-  
-  .SwiperSlide-image {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-    margin-bottom: 10px;
-  }
-  
-  .Slayder-article-title {
-    font-size: 1.5em;
-    margin: 10px 0;
-  }
-  
-  .Slayder-article-text {
-    font-size: 1em;
-    margin: 0;
-    cursor: pointer;
-  }
-  .Slayder-h1{
-    padding: 0px 15px;
-    font-weight: 500;
-    cursor: pointer;
-  }
- 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  margin-bottom: 200px;
+
+}
+
+.SwiperSlide-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.Slayder-article-title {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.Slayder-article-text {
+  font-size: 1em;
+  margin: 0;
+  cursor: pointer;
+}
+
+.Slayder-h1 {
+  padding: 0px 15px;
+  font-weight: 500;
+  cursor: pointer;
+}

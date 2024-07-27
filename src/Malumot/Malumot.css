@@ -1,13 +1,53 @@
-
-  .video-player-wrapper {
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+@media (max-width:970px) {
+  .grid-container{
+    display: block;
+    align-items: center;
+  }
+  .video-player-wrapper{
+    height: 400px;
+  }
   
-   height: 600px;
-    width: 100%;
-    
-  }
-  .Malumot-article{
+}
+.Slayder-h1 {
+  
+  font-size: 2em;
+  margin-bottom: 20px;
+}
 
-    padding: 0px 15px;
-    cursor: pointer;
-   
-  }
+.Malumot-article {
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Malumot-article h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.Malumot-article p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.video-player-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-player-wrapper .react-player__preview {
+  border-radius: 8px
+}

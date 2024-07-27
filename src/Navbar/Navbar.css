@@ -125,21 +125,28 @@
     background-position: center;
     width: 100%;
     height: 600px;
-   cursor: pointer;
+    cursor: pointer;
 
 }
+
 @media (max-width: 700px) {
     .slick-slide img {
-      height: auto; /* Adjusts height automatically */
-      max-height: 700px; /* Limits maximum height to 400px */
+        height: auto;
+        /* Adjusts height automatically */
+        max-height: 700px;
+        /* Limits maximum height to 400px */
     }
-  }
+}
+
 @media (max-width: 400px) {
     .slick-slide img {
-      height: auto; /* Adjusts height automatically */
-      max-height: 400px; /* Limits maximum height to 400px */
+        height: auto;
+        /* Adjusts height automatically */
+        max-height: 400px;
+        /* Limits maximum height to 400px */
     }
-  }
+}
+
 @media (width: 950px) {
 
     .Rasm1 {
@@ -150,8 +157,10 @@
 /* App.css */
 
 .comment-box {
-
-
+    height: 430px;
+    top: 0;
+    margin-top: 52px;
+    right: 9px;
     position: fixed;
     z-index: 8888;
     text-align: center;
@@ -161,7 +170,9 @@
 
     color: white;
     border: 1px solid #ffffff;
-    background-color: #11599d;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
     &:hover {
         transition: all 2s;
@@ -182,17 +193,39 @@
 
 }
 
+.Ssm {
+    width: 30px;
+}
+
+#kmn {
+    position: fixed;
+    bottom: 120px;
+    z-index: 9889989989;
+    right: 20px;
+    background-color: white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    box-shadow: 1px 3px 12px rgb(87, 199, 199);
+    cursor: pointer;
+}
+
 .btn {
-    width: 90px;
+    width: 140px;
     height: 25px;
     cursor: pointer;
-    margin-bottom: 7px;
-    background-color: #33f0d0;
+    height: 45px;
+    background-color: rgb(31, 161, 184);
     border: 0;
+    color: #14044e;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 55);
 }
 
 .area {
-    height: 100px;
+    height: 300px;
     resize: none;
     padding: 10px 15px;
     width: 300px;
@@ -202,14 +235,16 @@
 .comment-parent {
     width: 100%;
     margin: auto;
+
     padding: 0px 35%;
 }
 
 .vf {
     display: flex;
-    justify-content: space-evenly;
+    padding: 10px;
+    justify-content: space-between;
 
-    text-align: center
+
 }
 
 .cx {

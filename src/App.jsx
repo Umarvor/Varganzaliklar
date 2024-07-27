@@ -11,7 +11,7 @@ import Navbarroter5 from './Navbarroter/Navbarroter5';
 import Top from './Navbar/Top';
 import Slayder from '../src/Slayder/Slayder';
 import ScrollAnimationComponent from "./Navbarroter/Scroll"; // Import qiling
-
+import Sms from './Navbar/Sms'
 const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Modal />}>
@@ -34,6 +34,7 @@ const App = () => {
         <div className='container'>
           <RouterProvider router={routes} />
           <Top />
+          <Sms/>
         </div>
       
 
